@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow checkpoints (too large for git)
+model/checkpoint
+model/*.ckpt*
+model/*.meta
+model/*.index
+
+# Logs
+*.log
+BackTest/log.txt
+
+# OS
+.DS_Store
+Thumbs.db
